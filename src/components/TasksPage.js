@@ -15,12 +15,10 @@ const TasksPage = (props) => {
 
   const changeTitle = (e) => {
     setTitle(e.target.value);
-    console.log(e.target.value);
   };
 
   const changeDesc = (e) => {
     setDesc(e.target.value);
-    console.log(e.target.value);
   };
 
   const resetForm = () => {

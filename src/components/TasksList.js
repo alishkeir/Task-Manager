@@ -4,7 +4,7 @@ import Task from "./Task";
 const TasksList = (props) => {
   return (
     <div>
-      <div class="card-header text-center font-weight-bold">{props.status}</div>
+      <div className="card-header text-center font-weight-bold">{props.status}</div>
 
       {props.tasks.map((task) => (
         <Task
